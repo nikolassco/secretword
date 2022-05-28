@@ -47,3 +47,50 @@
   text-align: center;
   margin-right: 1em;
 }
+
+/* Smartphones (600px para baixo) */
+@media only screen and (max-width: 600px) {
+  .game h1 {
+    padding: 10px;
+  }
+
+  .tip {
+    padding: 10px;
+  }
+
+  .wordContainer {
+    border: 8px solid #ecfa00;
+    /* max-width: 90%; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .letter,
+  .blankSquare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+  }
+
+  .letterContainer input {
+    width: 30px;
+    height: 30px;
+  }
+
+}
+
+/* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */
+@media only screen and (min-width: 600px) {}
+
+/*Dispostivos Médios (Tablets deitados, 768px para cima) */
+@media only screen and (min-width: 768px) {}
+
+/* Dispostivos Largos (laptops/desktops, 992px para cima) */
+@media only screen and (min-width: 992px) {}
+
+/* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
+@media only screen and (min-width: 1200px) {}
